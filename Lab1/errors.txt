@@ -1,0 +1,30 @@
+lab-1
+errors.txt
+
+Change 1: "class" to "Class"
+    -'Error: Could not find or load main class HelloWorldApp 
+    - Caused by: java.lang.ClassNotFoundException: HelloWorldApp   
+
+Change 2: remove "static"
+    - Error: Main method is not static in class HelloWorldApp, please define the main method as:
+    - public static void main(String[] args)
+
+Change 3: change "System" to "system"
+    - Exception in thread "main" java.lang.Error: Unresolved compilation problem:
+    - system cannot be resolved
+    - at HelloWorldApp.main(HelloWorldApp.java:4)
+
+Change 4: remove ";"
+    - Exception in thread "main" java.lang.Error: Unresolved compilation problem:
+    - Syntax error, insert ";" to complete BlockStatements      
+    - at HelloWorldApp.main(HelloWorldApp.java:4)
+
+Change 5: remove "}"
+    - Exception in thread "main" java.lang.Error: Unresolved compilation problem:
+    - Syntax error, insert "}" to complete ClassBody
+    - at HelloWorldApp.main(HelloWorldApp.java:5)
+
+Change 6: remove "String[] args"
+    - rror: Main method not found in class HelloWorldApp, please define the main method as:
+    - public static void main(String[] args)
+    - or a JavaFX application class must extend javafx.application.Application

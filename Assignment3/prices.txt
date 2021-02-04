@@ -1,0 +1,10 @@
+Milk	3.00
+Butter	2.84
+Tomato  0.76
+Onion   0.54
+Lettuce 1.00
+Ham	2.50
+Bread   1.75
+Coffee 3.15
+Chips  2.32
+Nuts 2.50
